@@ -1,0 +1,9 @@
+<!-- templates/home.html -->
+{% extends 'base.html' %}
+{% block content %}
+<div class="jumbotron text-center">
+  <h1>Welcome to Our Barber Shop</h1>
+  <p>Professional haircuts and grooming services tailored just for you!</p>
+  <a href="{% url 'make_appointment' %}" class="btn btn-primary">Book an Appointment</a>
+</div>
+{% endblock %}  
